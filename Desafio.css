@@ -1,0 +1,27 @@
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: rgb(146, 170, 221);
+   
+}
+.box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    border-radius: 5px;
+ 
+}
+fieldset{
+    border: 5px solid rgb(21, 7, 85)
+}
+legend{
+    border: 5px solid rgb(21,7,85);
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+}
+
+.tabela {
+     position:relative
+}

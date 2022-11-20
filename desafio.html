@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Desafio.css">
+    <title>Rethink Academy- Desafio Detran</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+          <fieldset>
+            <legend><b> Formulário de Cadastro</b></legend>
+
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome"  required>
+                <label for="nome" class="labelInput"><b>Nome completo</b></label>
+
+            </div>
+            <br><br>
+            <div>
+                <input type="number" name="Idade" id="Idade"  required>
+                <label for="Idade" class="labelInput"><b>Idade</b></label>
+
+            </div>
+            <br><br>
+            <div>
+                <input type="text" name="Profissão" id="Profissão"  required>
+                <label for="Profissão" class="labelInput"><b>Profissão</b></label>
+
+            </div>
+            <br><br>
+            <div>
+                <input type="email" name="Email" id="Email"  required>
+                <label for="Email" class="labelInput"><b>Email</b></label>
+
+            </div>
+            <br><br>
+            <div>
+                <input type="tel" name="Telefone   " id="Telefone"  required>
+                <label for="Telefone" class="labelInput"><b>Telefone</b></label>
+
+            </div>
+            <br><br>
+            <div>
+                <input type="date" name="Data de Preenchimento" id="Data de Preenchimento"  required>
+                <label for="nome" class="labelInput"><b>Data de Preenchimento</b></label>
+
+            </div>
+            <br><br>
+            <input type="submit">
+           
+          </fieldset>
+      
+
+          </div>
+
+        </form>
+
+       <div id="tabela" class="buscar">
+        <input type="text" id="txtbuscar" placeholder="Buscar..." class=" max input"/>
+        
+       </div>
+    </div>
+    
+
+<script>
+    const pessoas =[
+    { name: "Fabiana Araújo", age: 33 },
+    { name: "Gabriel Gomes", age: 25 },
+    { name: "Fernando Henrique", age: 17 },
+    { name: "Ana Luiza", age: 2 },
+    { name: "Geralda do Nascimento", age: 93 },
+    { name: "Miguel Souza", age: 70 },
+    { name: "Antonio Miguel", age: 69 },
+]
+
+</body>
+</html>
